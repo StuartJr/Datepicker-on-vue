@@ -1,5 +1,18 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <FormWrapper />
   </div>
 </template>
+<script>
+import FormWrapper from "@/components/form/FormWrapper.vue";
+
+export default {
+  name: "About",
+  components: {
+    FormWrapper
+  },
+  data() {
+    return {};
+  }
+};
+</script>
